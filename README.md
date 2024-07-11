@@ -68,7 +68,7 @@ npm install react@latest next@latest react-dom@latest
 
 ### 1️⃣ Defining Routes
 
-![alt text](image.png)
+![alt text](segment.png)
 (사진출처 : [NextJS 공식홈페이지 Defining Routes](https://nextjs.org/docs/app/building-your-application/routing/defining-routes))
 
 #### 🎈 Root Segment
@@ -166,7 +166,7 @@ export default function Navigation() {
 
 #### 🎈 Route Group
 
-![alt text](image-2.png)
+![alt text](next-route-group.png)
 (사진출처 : [NextJS 공식홈페이지 라우트 경로그룹](https://nextjs.org/docs/app/building-your-application/routing/route-groups))
 
 - (파일명) => () 를 통해 URL에 영향을 주지않는다.
@@ -209,4 +209,34 @@ const Home = () => {
 };
 
 export default Home;
+```
+
+### 6️⃣ Dynamic Routes
+
+```javascript
+//static route
+/about-us
+
+//dynamic route
+/movie/:id
+/movie/14
+```
+
+#### 🎈 파일명
+
+- [paramsName] : `/movies/123` (123처럼 params가 들어갈수있다.)
+  ![alt text](params.png)
+- ex) http://localhost:3000/movies/123?region=kr&page=2 로 페이지 진입시
+
+```javascript
+export default function MovieDetail(props) {
+  console.log(props);
+  return <h1>Movie!</h1>;
+}
+
+// 아래와 같이 데이터를 받는다.
+{
+  params: { id: "123" },
+  searchParams: { region: "kr", page: "2" },
+};
 ```
