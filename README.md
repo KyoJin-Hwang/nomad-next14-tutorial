@@ -1,5 +1,7 @@
 # 😎 Nomad-Next14-Tutorial
 
+`by Kyojin Hwang`
+
 ## 💻 Version
 
 <img src="https://img.shields.io/badge/Node.js 20.12.1-339933?style=for-the-badge&logo=Node.js&logoColor=white">
@@ -8,9 +10,11 @@
 
 ## 📚Category
 
-- [📌 1. 폴더생성 ](#1.mkdir)
+- [🎬 Routing](#-Routing)
 
-## 1. 폴더생성
+### 💡 Install & Setting
+
+### 1. 폴더생성
 
 #### terminal 에서 폴더를 만들어준다.
 
@@ -18,7 +22,7 @@
 mkdir [폴더명]
 ```
 
-## 2. npm init -y 및 next 설치
+### 2. npm init -y 및 next 설치
 
 ```bash
 // default값으로 설정된 package.json 생성
@@ -28,7 +32,7 @@ npm init -y
 npm install react@latest next@latest react-dom@latest
 ```
 
-## 3. License 변경
+### 3. License 변경
 
 ```json
 {
@@ -55,3 +59,18 @@ npm install react@latest next@latest react-dom@latest
   }
 }
 ```
+
+- [📌 1. 폴더생성 ](#1.mkdir)
+
+## 🎬 Routing
+
+![alt text](image.png)
+(사진출처 : [NextJS 공식홈페이지 Defining Routes](https://nextjs.org/docs/app/building-your-application/routing/defining-routes))
+
+### 🎈 Root Segment
+
+- app 안의 폴더 로 들어가지않는 `page`와 `layout`은 root segment다.
+
+### 🎈 Page Create
+
+![alt text](route-create.png)
