@@ -12,6 +12,8 @@
 
 - [🎬 Routing](#-Routing)
 
+---
+
 ### 💡 Install & Setting
 
 ### 1. 폴더생성
@@ -60,17 +62,32 @@ npm install react@latest next@latest react-dom@latest
 }
 ```
 
-- [📌 1. 폴더생성 ](#1.mkdir)
+---
 
 ## 🎬 Routing
+
+### 1️⃣ Defining Routes
 
 ![alt text](image.png)
 (사진출처 : [NextJS 공식홈페이지 Defining Routes](https://nextjs.org/docs/app/building-your-application/routing/defining-routes))
 
-### 🎈 Root Segment
+#### 🎈 Root Segment
 
 - app 안의 폴더 로 들어가지않는 `page`와 `layout`은 root segment다.
 
-### 🎈 Page Create
+#### 🎈 Page Create
+
+- 폴더를 생성하고 page.tsx 파일을 생성하면 페이지가 된다.
 
 ![alt text](route-create.png)
+
+### 2️⃣ Not Found Routes
+
+#### 🎈 404 Error 페이지
+
+- not-found.tsx를 만들어서 사용 할 수 있다.
+- 일반 jsx 방식으로 만들면 된다.
+
+  ![alt text](route-404.png)
+
+#### 🎈
