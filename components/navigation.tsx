@@ -15,6 +15,14 @@ export default function Navigation() {
           <Link href="/about-us">About Us</Link>{" "}
           {path === "/about-us" ? "🔥" : ""}
         </li>
+        <li>
+          <Link href="/fetch/client">Data Fetch Client</Link>{" "}
+          {path === "/fetch/client" ? "🔥" : ""}
+        </li>
+        <li>
+          <Link href="/fetch/server">Data Fetch Server</Link>{" "}
+          {path === "/fetch/server" ? "🔥" : ""}
+        </li>
       </ul>
     </nav>
   );

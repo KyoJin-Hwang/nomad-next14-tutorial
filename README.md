@@ -240,3 +240,17 @@ export default function MovieDetail(props) {
   searchParams: { region: "kr", page: "2" },
 };
 ```
+
+## 🎬 Data Fetching
+
+### 1️⃣ Data `Client` & `Server` Fetch
+
+- <a href="">Client Fetch</a>
+- <a href="">Server Fetch</a>
+
+### 2️⃣ Loading Components
+
+- 만약 서버에서 `Loading 이 걸릴경우` 또는 `로딩을 줄경우`
+  <br /> `loading.tsx`를 `생성`해야 로딩될 때 도 페이지로 이동되며 페이지가 보인다.
+
+![alt text](loading.png)
