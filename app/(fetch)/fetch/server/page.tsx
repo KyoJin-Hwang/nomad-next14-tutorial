@@ -4,7 +4,7 @@ export const metadata = {
 
 const URL = "https://v2.jokeapi.dev/joke/Any";
 async function getMovies() {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   const res = await fetch(URL);
   const json = await res.json();
   return json;
