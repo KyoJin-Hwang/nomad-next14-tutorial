@@ -254,3 +254,16 @@ export default function MovieDetail(props) {
   <br /> `loading.tsx`를 `생성`해야 로딩될 때 도 페이지로 이동되며 페이지가 보인다.
 
 ![alt text](loading.png)
+
+### 3️⃣ Parallel Requests
+
+- getMovie 에서 5초이후 date fetching 을 할 경우
+  getvideos 를 5초이후 실행한다.
+
+![alt text](image.png)
+![alt text](image-2.png)
+
+- 🎈 병렬적 사용 방법 : promise.all 을 사용하여 동시에 await 한다.
+
+![alt text](image-3.png)
+![alt text](image-4.png)
