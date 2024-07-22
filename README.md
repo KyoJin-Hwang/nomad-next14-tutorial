@@ -281,3 +281,19 @@ export default function MovieDetail(props) {
 - 🎈 loading.tsx로 전체 로딩을 관리했지만 suspense로인해 불필요해진다.
 
 ![alt text](suspense-2.png)
+
+## 🎬 Style & Metadata
+
+### 1️⃣ CSS Modules
+
+#### css
+
+- styles 폴더를 만들고 reset.css를 입력 및 layout에서 import해서 적용한다.
+
+#### module.css
+
+- 다른 css 파일과의 충돌을 방지한다.
+
+![alt text](style-1.png)
+![alt text](style-2.png)
+![alt text](style-3.png)
