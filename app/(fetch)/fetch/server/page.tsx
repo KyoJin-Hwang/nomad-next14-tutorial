@@ -6,7 +6,7 @@ export const metadata = {
 
 export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 async function getMovies() {
-  // 로딩 시간 만들어주기
+  // api 로딩 시간 만들어주기
   // await new Promise((resolve) => setTimeout(resolve, 1000));
   const res = await fetch(API_URL);
   const json = await res.json();

@@ -268,3 +268,16 @@ export default function MovieDetail(props) {
 
 ![alt text](image-3.png)
 ![alt text](image-4.png)
+
+### 4️⃣ Suspense
+
+- 특정 컴포넌트의 렌더링이 완료되기 전까지 보여줄 로딩 화면을 지정할 수 있는 컴포넌트이다.
+- react에서 제공한다.
+- fallback 이라는 prop이 있다.
+- fallback : component가 await 되는 동안 표시할 메세지를 render한다.
+
+![alt text](suspense-1.png)
+
+- 🎈 loading.tsx로 전체 로딩을 관리했지만 suspense로인해 불필요해진다.
+
+![alt text](suspense-2.png)
