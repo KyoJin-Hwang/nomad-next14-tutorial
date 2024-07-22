@@ -282,7 +282,7 @@ export default function MovieDetail(props) {
 
 ![alt text](suspense-2.png)
 
-## 🎬 Style & Metadata
+## 🎬 Style
 
 ### 1️⃣ CSS Modules
 
